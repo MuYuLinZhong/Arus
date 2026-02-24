@@ -1,0 +1,6 @@
+# 树莓派系统级代理（复制到 ~/.bashrc 或 source 本文件前，把 YOUR_PC_IP 换成你笔记本的局域网 IP）
+# Clash 默认 HTTP 代理端口 7890；PC 上需先开启 Allow LAN
+
+export http_proxy="http://192.168.0.102:7890"
+export https_proxy="http://192.168.0.102:7890"
+export no_proxy="localhost,127.0.0.1,192.168.0.0/16"

@@ -1,0 +1,25 @@
+# Environment
+.env
+*.key
+master.key
+
+# Go
+server/vendor/
+server/tmp/
+
+# Node
+web/node_modules/
+web/dist/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Docker
+docker-compose.override.yml
+
+# Logs
+*.log

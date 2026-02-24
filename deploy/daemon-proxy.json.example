@@ -1,0 +1,7 @@
+{
+  "proxies": {
+    "http-proxy": "http://192.168.0.102:7890",
+    "https-proxy": "http://192.168.0.102:7890",
+    "no-proxy": "localhost,127.0.0.1,192.168.0.0/16"
+  }
+}
